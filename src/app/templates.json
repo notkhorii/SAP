@@ -1,0 +1,65 @@
+[
+    {
+       
+       "Template_Title": "Message-Received: Confirmation —After Hours",
+       "Template_Content": "Thank you for contacting law firm name. We have received your message, however you have reached us outside of normal business hours, which are business days & hours. We will respond as soon as possible. We will contact you within 1 business day.",
+       "Template_Description": " To be used when the inbound text message contains such keywords as “new client(s),” “consultation,” “consult,” and other keywords indicating intent from a PNC. ",
+       "Template_Tags": ["New Client", "Text Message"]
+    },
+    {
+      
+      "Template_Title": "Message-Received: Confirmation & Appointment Booking — PNC Request",
+      "Template_Content": "Thank you for contacting law firm name. We handle practice area(s) matters in location or metro area. We are accepting new clients. Schedule your free/cost X-minute consult: link. Reply with questions.",
+      "Template_Tags": ["New Client", "Text Message"],
+      "Template_Description": "To be used when the inbound text message contains such keywords as “new client(s),” “consultation,” “consult,” and other keywords indicating intent from a PNC. "
+   },
+   {
+      
+      "Template_Title": "PNC Follow-Up",
+      "Template_Content": "PNC name, are you still in need of an attorney? Law firm name has helped law firm location or metro area clients with practice area matters for over X years. We are accepting new clients, and offer a free/cost X-minute consult. Book online: link. Reply with questions.",
+      "Template_Tags": ["PNC", "Text Message"],
+      "Template_Description": "To be used when the inbound text message does not contain any keywords indicating intent from a PNC, but the PNC has not responded after following up with them and is still in need of legal assistance. The template should be sent to PNCs who have not responded after following up with them. "
+
+   },
+   {
+      
+      "Template_Title": "PNC Follow-Up — Second Reminder",
+      "Template_Content": "PNC name, do you still need an attorney? Law firm name has star rating/# 5-star reviews on review site. We offer a free/cost X-minute consult, so we can understand your needs. To schedule, call main phone number or access our online calendar: link. Reply with questions.",
+      "Template_Tags": ["PNC", "Text Message", "Reminder"],
+      "Template_Description": "This template is used when the inbound text message contains the keyword ‘reminder’ and is intended to be sent to PNCs who have not responded after receiving two previous follow-up messages. The template is used to remind PNCs that they are still in need of legal assistance and to offer them a free/cost X-minute consult to understand their needs and schedule an appointment with a lawyer. "
+   },
+
+   
+
+
+
+   
+   {
+      
+      "Template_Title": "PNC Follow-Up — Third Reminder",
+      "Template_Content": "PNC name, we’re reaching out one last time in case you still need an attorney. We offer a free/cost X-minute consult, so we can understand your needs. To schedule, call main phone number or access our online calendar: link. Reply with questions.",
+      "Template_Tags": ["PNC", "Text Message", "Reminder"],
+      "Template_Description": " "
+   },
+   {
+      
+      "Template_Title": "Appointment Confirmation — Phone Call",
+      "Template_Content": "PNC name, your New Client Consultation with law firm name is scheduled for date & time. Attorney name will call you at PNC number. If you must reschedule or cancel, please call main phone number no less than 24 hours prior.",
+      "Template_Tags": ["Confirmation", "Text Message"],
+      "Template_Description": "A generated template for confirming a appointment with a phone call. This template is used to confirm appointments that are scheduled over the phone. It includes the date, time, the client's phone number, and the name of the attorney they will be speaking with. The user can reschedule or cancel their appointment up to 24 hours prior to the appointment time."
+   },
+   {
+      
+      "Template_Title": "Appointment Confirmation — Video Call",
+      "Template_Content": "PNC name, your New Client Consultation with law firm name is scheduled for date & time. To join the video call from your phone, tablet, or computer, click here: link. If you must reschedule or cancel, please call main phone number no less than 24 hours prior.",
+      "Template_Tags": ["Confirmation", "Text Message"],
+      "Template_Description": " "
+   },
+   {
+      
+      "Template_Title": "Appointment Confirmation — In-Person Meeting",
+      "Template_Content": "PNC name, your New Client Consultation with law firm name is scheduled for date & time at law firm address. If you must reschedule or cancel, please call main phone number no less than 24 hours prior.",
+      "Template_Tags": ["Confirmation", "Text Message"],
+      "Template_Description": " "
+   }
+   ]
